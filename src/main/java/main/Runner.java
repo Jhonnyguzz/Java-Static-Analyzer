@@ -1,3 +1,5 @@
+package main;
+
 import analyzer.Analyzer;
 import analyzer.collectors.HashMapCollector;
 import analyzer.printers.ComplexityPrinter;
@@ -28,8 +30,8 @@ public class Runner {
 
         System.out.println("Please type full path to project directory you want to analyze.");
 
-        String tempPath =  in.nextLine();
-//        String tempPath =  "/Users/laurynassakalauskas/IdeaProjects/CS409/testcases/java-design-patterns";
+        //String tempPath =  in.nextLine();
+        String tempPath =  "C:\\Users\\jguzman\\Documents\\Git Projects\\design_internship\\src";
         try {
             run(tempPath);
         } catch (Exception e) {

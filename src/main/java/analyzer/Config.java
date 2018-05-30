@@ -24,7 +24,7 @@ public final class Config {
     /**
      * Maximum number of lines per method
      */
-    public static final int MAX_BODY_LENGTH = 50;
+    public static final int MAX_BODY_LENGTH = 10;
 
     /**
      * Maximum length per method name

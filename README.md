@@ -63,8 +63,8 @@ The analyzer can detect & collect statistics and metrics about the project menti
 # Building the app
 
 1. Install Maven dependencies: `mvn install`
-2. Compile java file: `javac src/main/java/Runner.java`
-2. Run java file `java src/main/java/Runner`
+2. Compile java file: `javac src/main/java/main.Runner.java`
+2. Run java file `java src/main/java/main.Runner`
 
 ## Outline of design
 
